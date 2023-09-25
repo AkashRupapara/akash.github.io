@@ -2,6 +2,7 @@ import React from 'react'
 import { Container, Nav, Navbar } from 'react-bootstrap';
 import '../CSS/styles.css';
 import {Row, Col } from 'react-grid-system';
+import SectionTitle from './SectionTitle';
 
 // import styled from "@emotion/styled/macro";
 
@@ -11,7 +12,7 @@ const Education = () => {
     
     return (
         <div id="education-main-div">
-            <h1 class="title"><i>EDUCATION</i></h1>
+            <SectionTitle title='Education'/>
             <Row>
                 <Col>
                     <div id="school-card-1">

@@ -57,7 +57,7 @@
 }
 
 .title{
-    font-family: Impact, Haettenschweiler, 'Arial', sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     margin-bottom: 5%;
 }
 
@@ -142,7 +142,6 @@
     transform: translate3d(0,50px,0);
     transition: transform 350ms ease;
     font-family:Impact, Haettenschweiler, 'Arial Narrow', sans-serif;
-    font-style: italic;
     font-size: large;
 }
 
@@ -165,7 +164,7 @@
     margin-top: 5%;
 }
  
-#skills{
+#section{
     margin-top: 5%;
 }
 
