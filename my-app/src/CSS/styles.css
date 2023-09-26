@@ -1,0 +1,174 @@
+#navbar-items{
+    font-size: x-large;
+    font-weight: bold;
+    color: white;
+}
+
+#social-media-icon{
+    margin: 2% 2% 2% 2%;
+    width: 40%;
+}
+
+.About-Content{
+    align-items: center;
+    margin-top: 2.5%;
+    font-size:x-large;
+}
+
+#outer-about{
+    margin-top: 5%;
+    width: 100%;
+}
+
+#outer-circle {
+    background: silver;
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    position: relative;
+    /* 
+     Child elements with absolute positioning will be 
+     positioned relative to this div 
+    */
+}
+
+
+#inner-circle {
+    position: absolute;
+    background: #a9aaab;
+    border-radius: 50%;
+    margin: 10px 10px 10px 10px;
+    /*
+     Put top edge and left edge in the center
+    */
+    display: block;
+    width: 280px;
+    height: 280px;
+
+    /* -moz-border-radius: 300px;
+    -webkit-border-radius: 300px; */
+    background-image: url("/Images/Akash.jpeg");
+    background-position:50% 50%;
+    background-repeat:no-repeat;  
+    /* 
+     Offset the position correctly with
+     minus half of the width and minus half of the height 
+    */
+}
+
+.title{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 5%;
+}
+
+#education-main-div{
+    width: 100%;
+    text-align: center;
+    padding-top: 5%;
+}
+
+#display-over-school:hover{
+    background-color: rgba(0,0,0,0.5);
+}
+
+#subTitle:hover,
+#paragraph:hover{
+    transform: translate3d(0,0,0),
+}
+
+#hover:hover{
+    opacity: 1
+}
+
+#school-card-1 {
+    margin-top: 5%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:50% 50%;
+    align-content: center;
+    /* margin: 5% 5% 5% 5%; */
+    color: #FFF;
+    position: relative;
+    width: 100%;
+    height: 300px;
+    cursor: pointer;
+    /* background: linear-gradient(to left,#004092, #020202, transparent), url("../Images/SJSU.jpeg");  */
+
+    background-image: url("/Images/SJSU.jpeg");
+    /* box-shadow: 0px 10px 20px -5px rgba(0,0,0,.8);  */
+    /* opacity: 0.95; */
+}
+
+#school-card-2 {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:50% 50%;
+    align-content: center;
+    /* padding-left: 0; */
+    margin-top: 5%;
+    color: #FFF;
+    position: relative;
+    width: 100%;
+    height: 300px;
+    cursor: pointer;
+    /* background: linear-gradient(to right,#004092, #020202, transparent), url("../Images/AU-new.jpeg") no-repeat;  */
+    
+    background-image: url("/Images/AU-new.jpeg");
+    opacity: 0.95;
+    box-shadow: 0px 10px 20px -5px rgba(0,0,0,.8); 
+
+}
+
+
+#display-over-school{
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 10%;
+    width: 100%;
+    z-index: 2;
+    transition: background-color 350ms ease;
+    background-color: transparent;
+    padding: 20px 20px 0 20px;
+    box-sizing: border-box;
+}
+
+#hover-school{
+    opacity: 0;
+    transition: opacity 350ms ease;
+}
+
+#paragraph{
+    transform: translate3d(0,50px,0);
+    transition: transform 350ms ease;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow', sans-serif;
+    font-size: large;
+}
+
+#CTA{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+#subtitle{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow', sans-serif;
+    transform: translate3d(0,50px,0);
+    transition: transform 350ms ease;
+    font-size:x-large;
+}
+
+
+#projects{
+    text-align: center;
+    margin-top: 5%;
+}
+ 
+#section{
+    margin-top: 5%;
+}
+
+.icons img {
+    width: 2cm;
+    height: 2cm;
+}
